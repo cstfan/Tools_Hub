@@ -8,9 +8,9 @@ from bpy.props import (
 
 bl_info = {
     "name": "Tools Hub",
-    "author": "Cstfan",
-    "version": (2021, 1, 3),
-    "blender": (2, 90, 1),
+    "author": "Cstfan and V!nc3r for his precious help",
+    "version": (2021, 10, 23),
+    "blender": (2, 93, 5),
     "location": "View3D > UI > Tools Hub",
     "description": "Panel with tools",
     "warning": "",
@@ -96,6 +96,7 @@ class TOOLSHUB_PT_material_output(TOOLSHUB_PT_material_3dviewPanel):
             row.operator("toolshub.material_output", text="Default").outputlabel = ""
             row.operator("toolshub.material_output", text="PBR").outputlabel = "PBR"
             row.operator("toolshub.material_output", text="Combined").outputlabel = "Combined"
+            row.operator("toolshub.material_output", text="IDMap").outputlabel = "IDMap"
 
 
 """

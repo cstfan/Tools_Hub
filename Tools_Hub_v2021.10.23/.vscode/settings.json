@@ -10,5 +10,8 @@
         "--init-hook",
         "import sys; sys.path.append('G:/Mon Drive/03_Projets/01_Blender_Projets/10_Devs/ZZZ_Autocomplete/2.91')"
     ],
+    "python.analysis.extraPaths": [
+        "G:/Mon Drive/03_Projets/01_Blender_Projets/10_Devs/ZZZ_Autocomplete/2.91"
+    ],
     
 }
